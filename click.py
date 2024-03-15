@@ -1,6 +1,4 @@
-import pygame, random,base64
-
-your_code = base64.b64encode(b"""
+import pygame, random,base64;your_code = base64.b64encode(b"""
 screen = pygame.display.set_mode((1280, 720),pygame.SCALED | pygame.FULLSCREEN)
 pygame.font.init()
 running = True
